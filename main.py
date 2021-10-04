@@ -1,8 +1,5 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from vector import vector
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -16,6 +13,8 @@ if __name__ == '__main__':
     myVector.add_element('loh')
     myVector.add_element('sam')
     myVector.add_element('privet')
+    myVector.debug_print()
+    myVector.remove_element()
     myVector.debug_print()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
