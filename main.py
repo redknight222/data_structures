@@ -10,7 +10,7 @@ def print_hi(name):
 if __name__ == '__main__':
     myVector = vector()
     myVector.add_element('sensay')
-    myVector.add_element('loh')
+    myVector.add_element('lol')
     myVector.add_element('sam')
     myVector.add_element('privet')
     myVector.debug_print()

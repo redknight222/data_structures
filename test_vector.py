@@ -10,5 +10,5 @@ class Testvector(TestCase):
 
     def test_remove_element(self):
         vector1 = vector()
-        vector1.add_element('hello')
+        vector1.add_element('Hello')
         self.assertEqual(vector1.remove_element(), None)

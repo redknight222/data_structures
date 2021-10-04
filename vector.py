@@ -25,4 +25,4 @@ class vector:
         elif self.remove_object in string.digits and 0 <= int(self.remove_object) <= self.size:
             self.my_array.pop(int(self.remove_object) - 1)
         else:
-            print("Ошибка.Такого элемента(или номера) не существует")
+            print("Error.Такого элемента(или номера) не существует")
